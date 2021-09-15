@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+
+  }
+
+  .btn-circle.btn-md {
+      position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #a8acb6;
+
+
+}
+.rounded-25{
+    border-radius: 25px;
+}
+.notify{
+    width: 80%;
+    height: auto;
+}
+
+.badge{
+    position: absolute !important;
+    top:0 !important;
+    right: 0 !important;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    z-index: 100 ;
+    box-shadow:   0 0 1px 0.125rem rgb(72 180 97 / 50%)
+    
+}
+
+.has-search .form-control {
+    padding-left: 2.475rem;
+    background-color: #f8f7f2;
+    border: 0!important;
+}
+
+
+#input-search:focus,#input-search:active{
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1rem;
+    text-align: center;
+    pointer-events: none;
+    color: #a8acb6;
+  
+}
